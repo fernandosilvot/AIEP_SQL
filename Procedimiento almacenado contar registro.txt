@@ -1,0 +1,11 @@
+alter procedure PR_Contar_datos 
+as 
+begin 
+
+
+Select count(*) as datos from Pacientes 
+
+
+end 
+
+exec PR_Contar_datos
